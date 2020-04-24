@@ -1,0 +1,10 @@
+Package: com.imkpatil.cclinker
+Name: CCLinker
+Depends: mobilesubstrate,com.spark.libsparkapplist
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: Open the settings pane for the CC Toggles by using gestures!
+Maintainer: P2KDev <p2kdev@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Icon: file:///Library/Application Support/CCLinker/icon.png

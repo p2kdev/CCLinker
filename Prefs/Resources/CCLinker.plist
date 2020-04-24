@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>items</key>
+
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>com.imkpatil.cclinker</string>
+				<key>key</key>
+				<string>twkEnabled</string>
+				<key>label</key>
+				<string>Enabled</string>
+				<key>PostNotification</key>
+				<string>com.imkpatil.cclinker.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Gesture Options</string>
+				<key>footerText</key>
+				<string>The long press gesture is not recommended for non 3d touch devices as it conflicts with the stock gesture to expand the modules.</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>defaults</key>
+				<string>com.imkpatil.cclinker</string>
+				<key>default</key>
+				<integer>0</integer>
+				<key>detail</key>
+				<string>PSListItemsController</string>
+				<key>key</key>
+				<string>gestureType</string>
+				<key>label</key>
+				<string>Specify Gesture</string>
+				<key>validTitles</key>
+					<array>
+						<string>Long Press</string>
+						<string>Swipe Left</string>
+						<string>Swipe Right</string>
+					</array>
+				<key>validValues</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+				<key>PostNotification</key>
+				<string>com.imkpatil.cclinker.settingschanged</string>
+
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Music Widget App</string>
+				<key>footerText</key>
+				<string>Select the App you want to open when long pressing on the Music Widget.</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>PostNotification</key>
+				<string>com.imkpatil.cclinker.settingschanged</string>
+				<key>defaults</key>
+				<string>com.imkpatil.cclinker</string>
+				<key>label</key>
+				<string>Selet Music Widget App...</string>
+				<key>DefaultValue</key>
+				<string>0 apps</string>
+				<key>action</key>
+				<string>selectMusicWidgetApp</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Respring</string>
+				<key>footerText</key>
+				<string>Repsring only required for gesture changes.</string>
+			</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring!</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Icon from iconfinder.com
+© 2019 P2KDev (@p2kdev)</string>
+		</dict>
+
+	</array>
+
+	<key>title</key>
+	<string>CCLinker</string>
+</dict>
+</plist>
